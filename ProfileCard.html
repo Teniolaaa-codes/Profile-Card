@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article
+        data-testid="test-profile-card"
+        aria-label="Profile card of Agboola Teniola K."
+      >
+        <header>
+          <div>
+            <figure>
+              <img
+                data-testid="test-user-avatar"
+                src="https://ca.slack-edge.com/T09AMR8A9C3-U09LAUV4YJ3-005f68794ed0-512"
+                alt="Profile Picture of Agboola Teniola K."
+              />
+              <figcaption>Me</figcaption>
+            </figure>
+          </div>
+          <div>
+            <h2 data-testid="test-user-name">Agboola Teniola K.</h2>
+            <p>Full-Stack Developer</p>
+          </div>
+        </header>
+        <p data-testid="test-user-bio">
+          Hi there!, My name is Teniola but you can call me Teni. I'm a
+          Full-Stack Developer in the making, with Zero experience and 100%
+          passion. I love and enjoy building intuitive, accessible and
+          responsive web applications. I'm eager to grow and currently interning
+          at HNG.
+        </p>
+        <p data-testid="test-user-time">Current Time: <span></span></p>
+        <nav
+          data-testid="test-user-social-links"
+          aria-label="Social media links"
+        >
+          <h3>My Socials</h3>
+          <ul>
+            <li>
+              <a
+                href="https://linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-instagram"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Making Money</li>
+            <li>Building webpages</li>
+            <li>Reading Novels</li>
+            <li>Listening to Music</li>
+            <li>Playing Codm</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Awkward Silence</li>
+            <li>Lagos Traffic</li>
+            <li>Bad Roads</li>
+            <li>Bad Network</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
