@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
-
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <nav
+      data-testid="test-main-nav"
+      aria-label="Main-Navigation"
+      class="main-nav"
+    >
+      <ul>
+        <li>
+          <a href="index.html" data-testid="test-nav-profile">Profile</a>
+        </li>
+        <li>
+          <a href="aboutme.html" data-testid="test-nav-about">About</a>
+        </li>
+        <li>
+          <a href="contactus.html" data-testid="test-nav-contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
     <main>
       <article
         data-testid="test-profile-card"
@@ -97,4 +115,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
