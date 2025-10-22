@@ -1,8 +1,8 @@
-# Profile Card - HNG Frontend Stage 0 Task
+# Multi-Page Web Application - HNG Frontend Stage 1 Task
 
 ## 📌 Overview
-This project is a simple, accessible, and responsive **Profile Card** built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
-This is my submission for the **HNG Internship Stage 0 frontend task**.
+This project is a multi-page personal website built using HTML, CSS, and JavaScript. It includes a Profile, About Me, and Contact page with basic form validation and interactive styling.  
+This is my submission for the **HNG Internship Stage 1 frontend task**.
 
 ---
 
@@ -13,9 +13,12 @@ This is my submission for the **HNG Internship Stage 0 frontend task**.
 ---
 
 ## 🧠 Features
-- Semantic and accessible HTML structure  
-- Fully responsive layout (mobile, tablet, desktop)  
-- Displays current time using `Date.now()`  
+- **Profile Card**:
+Displays personal details, a profile image, hobbies, dislikes, and social media links.
+- **About Me Page**:
+Outlines bio, goals, areas of low confidence, a note to future self, and extra thoughts.
+- **Contact Us Page**:
+Includes a working contact form with validation for name, email, subject, and message.
 - Custom focus rings for keyboard navigation  
 - Clean, minimal dark theme  
 - Hosted live on Netlify  
@@ -34,9 +37,5 @@ This is my submission for the **HNG Internship Stage 0 frontend task**.
    ```bash
    git clone https://github.com/teniolaaa-codes/Profile-Card.git
 
-2. Navigate to the project directory:
-    ```bash
-    cd profile-card
-
-3. Open index.html directly in your browser by double clicking it or use VScode Live Server
+2. Open index.html directly in your browser by double clicking it or use VScode Live Server
 
